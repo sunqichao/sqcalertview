@@ -40,4 +40,7 @@
                     confirmButtonBlock:(void (^)(void))confirmButtonBlock
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      cancelButtonBlock:(void (^)(void))cancelButtonBlock;
+
 @end
+
+
