@@ -5,6 +5,7 @@
  */
 
 @interface SQCAlertViewManager : NSObject
+
 /**
  *  弹出框  YES在左边   NO在右边
  *
@@ -21,6 +22,7 @@
                     confirmButtonBlock:(void (^)(void))confirmButtonBlock
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      cancelButtonBlock:(void (^)(void))cancelButtonBlock;
+
 
 /**
  *  弹出框  YES在右边   NO在左边
